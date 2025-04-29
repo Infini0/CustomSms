@@ -11,7 +11,7 @@ app.get('/journey-spec.json', (req, res) => {
     res.json({
         "workflowApiVersion": "1.1",
         "metaData": {
-            "icon": "https://tondomaine.com/icon.png",
+            "icon": "https://customsms.onrender.com/icon.png",
             "category": "message"
         },
         "type": "REST",
@@ -23,7 +23,7 @@ app.get('/journey-spec.json', (req, res) => {
         },
         "arguments": {
             "execute": {
-                "url": "https://tondomaine.com/execute",
+                "url": "https://customsms.onrender.comexecute",
                 "verb": "POST",
                 "body": "",
                 "header": ""
@@ -31,13 +31,13 @@ app.get('/journey-spec.json', (req, res) => {
         },
         "configurationArguments": {
             "save": {
-                "url": "https://tondomaine.com/save",
+                "url": "https://customsms.onrender.com/save",
                 "verb": "POST",
                 "body": "",
                 "header": ""
             },
             "publish": {
-                "url": "https://tondomaine.com/publish",
+                "url": "https://customsms.onrender.com/publish",
                 "verb": "POST",
                 "body": "",
                 "header": ""
@@ -47,7 +47,7 @@ app.get('/journey-spec.json', (req, res) => {
             "configModal": {
                 "height": 400,
                 "width": 600,
-                "url": "https://tondomaine.com/ui.html"
+                "url": "https://customsms.onrender.com/index.html"
             }
         }
     });
